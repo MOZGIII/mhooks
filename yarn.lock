@@ -1802,6 +1802,7 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
     typescript: ^4.9.5
+    use-persistent-effect: "workspace:*"
     vite: ^4.1.2
   languageName: unknown
   linkType: soft
@@ -1865,7 +1866,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"use-persistent-effect@workspace:packages/use-persistent-effect":
+"use-persistent-effect@workspace:*, use-persistent-effect@workspace:packages/use-persistent-effect":
   version: 0.0.0-use.local
   resolution: "use-persistent-effect@workspace:packages/use-persistent-effect"
   dependencies:
