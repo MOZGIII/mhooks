@@ -483,6 +483,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mhooks/use-persistent-effect@workspace:*, @mhooks/use-persistent-effect@workspace:packages/use-persistent-effect":
+  version: 0.0.0-use.local
+  resolution: "@mhooks/use-persistent-effect@workspace:packages/use-persistent-effect"
+  dependencies:
+    "@types/react": ^18.0.28
+    react: ^18.2.0
+    typescript: ^4.9.5
+  peerDependencies:
+    react: "*"
+  languageName: unknown
+  linkType: soft
+
 "@npmcli/fs@npm:^2.1.0":
   version: 2.1.2
   resolution: "@npmcli/fs@npm:2.1.2"
@@ -1796,13 +1808,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "tests@workspace:packages/tests"
   dependencies:
+    "@mhooks/use-persistent-effect": "workspace:*"
     "@types/react": ^18.0.28
     "@types/react-dom": ^18.0.11
     "@vitejs/plugin-react": ^3.1.0
     react: ^18.2.0
     react-dom: ^18.2.0
     typescript: ^4.9.5
-    use-persistent-effect: "workspace:*"
     vite: ^4.1.2
   languageName: unknown
   linkType: soft
@@ -1865,18 +1877,6 @@ __metadata:
   checksum: 12db73b4f63029ac407b153732e7cd69a1ea8206c9100b482b7d12859cd3cd0bc59c602d7ae31e652706189f1acb90d42c53ab24a5ba563ed13aebdddc5561a0
   languageName: node
   linkType: hard
-
-"use-persistent-effect@workspace:*, use-persistent-effect@workspace:packages/use-persistent-effect":
-  version: 0.0.0-use.local
-  resolution: "use-persistent-effect@workspace:packages/use-persistent-effect"
-  dependencies:
-    "@types/react": ^18.0.28
-    react: ^18.2.0
-    typescript: ^4.9.5
-  peerDependencies:
-    react: "*"
-  languageName: unknown
-  linkType: soft
 
 "util-deprecate@npm:^1.0.1":
   version: 1.0.2

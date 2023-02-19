@@ -1,5 +1,5 @@
 {
-  "name": "use-persistent-effect",
+  "name": "@mhooks/use-persistent-effect",
   "packageManager": "yarn@3.4.1",
   "scripts": {
     "build": "tsc"
