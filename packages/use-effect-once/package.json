@@ -1,0 +1,13 @@
+{
+  "name": "use-effect-once",
+  "packageManager": "yarn@3.4.1",
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
