@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import usePersistentEffect from "../../../use-persistent-effect/src";
+import usePersistentEffect from "@mhooks/use-persistent-effect";
 
 const simulateFetch = async (where: string): Promise<"response"> =>
   new Promise((resolve) => {
