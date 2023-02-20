@@ -483,6 +483,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mhooks/use-abort-controller@workspace:packages/use-abort-controller":
+  version: 0.0.0-use.local
+  resolution: "@mhooks/use-abort-controller@workspace:packages/use-abort-controller"
+  dependencies:
+    "@types/react": ^18.0.28
+    react: ^18.2.0
+    typescript: ^4.9.5
+  peerDependencies:
+    react: "*"
+  languageName: unknown
+  linkType: soft
+
 "@mhooks/use-persistent-effect@workspace:*, @mhooks/use-persistent-effect@workspace:packages/use-persistent-effect":
   version: 0.0.0-use.local
   resolution: "@mhooks/use-persistent-effect@workspace:packages/use-persistent-effect"
